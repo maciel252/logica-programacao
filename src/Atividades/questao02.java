@@ -2,7 +2,7 @@ package Atividades;
 
 import java.util.Scanner;
 
-public class questao02 {
+public class Questao02 {
    
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
@@ -17,8 +17,8 @@ public class questao02 {
         System.out.println("Numero antecessor =>"+antecessor);
         System.out.println("Numero Sucessor =>"+sucessor);
     
-        ler.close();
+        //ler.close();
 
 
     }
-}
+}                                                                                                               

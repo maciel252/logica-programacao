@@ -2,7 +2,7 @@ package Atividades;
 
 import java.util.Scanner;
 
-public class questao06 {
+public class Questao06 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
@@ -12,12 +12,12 @@ public class questao06 {
         System.out.println("Digite a quantidade de pessoas a ser divido a conta =>" );
         double qtdePessoas = ler.nextDouble();
 
-        double resultado = vlConta / qtdePessoas;
+        double resultado = vlConta / qtdePessoas;                                                                      
 
         System.out.println("========= Calculo divisão conta pessoas========");
         System.out.println("O valor a ser dividido por pessoa será de =>"+resultado);
 
-        ler.close();
+        //ler.close();
 
 
     }

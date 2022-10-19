@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class PrimeiroExemplo {
     public static void main(String[] args) throws Exception {
         System.out.println("========Exemplo IO=========");
         //1. Escreva o primeiro numero.

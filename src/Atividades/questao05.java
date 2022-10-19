@@ -2,22 +2,16 @@ package Atividades;
 
 import java.util.Scanner;
 
-public class questao05 {
+public class Questao05 {
     public static void main(String[] args) {
-    Scanner ler = new Scanner(System.in);
-
-    System.out.println("Digite o valor do jantar =>" );
-    double vlJantar = ler.nextDouble();
-
-    double taxa = vlJantar / 10;
-    double total = taxa + vlJantar;
-
-    System.out.println("=========== Valores a serem pagos com taxa garcom===========");
-    System.out.println("O valor taxa garcom =>" +taxa);
-    System.out.println("O valor total a ser pago sera =>" +total);
-
-    ler.close();
-    
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Digite o valor do jantar:");
+        float jantar = ler.nextFloat();
+        ler.close();
+        // ler.close();
+        //System.out.println(jantar + " + 10% " + (jantar * 1.1));
+        float gorjeta = (jantar / 100)*10;
+        System.out.println(String.format("R$%.2f + 10%s =R$%.2f", jantar,"%",(gorjeta+jantar)));
     }
 }
 
